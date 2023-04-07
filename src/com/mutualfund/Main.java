@@ -1,7 +1,7 @@
 package com.mutualfund;
 
-import com.mutualfund.funds.AxisFund;
-import com.mutualfund.funds.ParagParikhFund;
+import com.mutualfund.fund.AxisFund;
+import com.mutualfund.fund.ParagParikhFund;
 
 import java.util.Scanner;
 
@@ -33,6 +33,9 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Keep investing !");
+                    break;
+                default:
+                    System.exit(0);
                     break;
 
             }

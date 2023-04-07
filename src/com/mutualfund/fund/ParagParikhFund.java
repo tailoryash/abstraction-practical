@@ -1,6 +1,6 @@
-package com.mutualfund.funds;
+package com.mutualfund.fund;
 
-import com.mutualfund.schemes.MutualFundScheme;
+import com.mutualfund.scheme.MutualFundScheme;
 
 public class ParagParikhFund implements MutualFundScheme {
 
